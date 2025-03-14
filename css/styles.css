@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .section-title {
   font-weight: 600;
   font-size: 24px;
@@ -44,6 +48,11 @@ a {
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: black;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fd9222;
 }
 
 /** ------------------HEADER---------------------- */
@@ -276,3 +285,17 @@ a {
   letter-spacing: -0.02em;
   color: #fff;
 }
+
+/* --------------Селектор нащадка------------- */
+/* 
+.taste-subtitle .accent {
+  color: #fd9222;
+}
+
+.made-title .accent {
+  color: aquamarine;
+}
+
+.review-title .accent {
+  color: red;
+} */
